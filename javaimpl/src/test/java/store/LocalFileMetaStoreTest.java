@@ -1,10 +1,10 @@
 package store;
 
-import metastore.LocalFileMetaStore;
+import com.futurehotel.framework.dts.metastore.LocalFileMetaStore;
 import org.apache.kafka.common.TopicPartition;
 import org.junit.Test;
-import common.Checkpoint;
-import common.Util;
+import com.futurehotel.framework.dts.common.Checkpoint;
+import com.futurehotel.framework.dts.common.Util;
 
 import static org.junit.Assert.assertTrue;
 

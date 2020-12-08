@@ -1,10 +1,10 @@
 package store;
 
-import metastore.KafkaMetaStore;
+import com.futurehotel.framework.dts.metastore.KafkaMetaStore;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.TopicPartition;
 import org.junit.Test;
-import common.Checkpoint;
+import com.futurehotel.framework.dts.common.Checkpoint;
 
 import java.util.Arrays;
 import java.util.Properties;
